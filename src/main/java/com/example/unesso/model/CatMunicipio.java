@@ -3,7 +3,7 @@ package com.example.unesso.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="catMunicipio")
+@Table(name="catmunicipio")
 public class CatMunicipio {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

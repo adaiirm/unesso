@@ -9,7 +9,7 @@ import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="catGrupo")
+@Table(name="catgrupo")
 public class CatGrupo {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
